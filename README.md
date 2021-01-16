@@ -1,4 +1,4 @@
 # ConnectFour
-Require node.js libraries:
-  express
+Require node.js libraries:\n
+  express\n
   ip
