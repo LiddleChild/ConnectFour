@@ -1,3 +1,6 @@
+import Point from "./Library.js";
+import Rectangle from ".Library.js";
+
 const canvas = document.getElementById("canvas");
 const g = canvas.getContext("2d");
 
