@@ -3,7 +3,7 @@ const Ip = require("ip");
 
 const app = Express();
 
-const IP = Ip.address(), PORT = 80;
+const IP = Ip.address(), PORT = 8080;
 
 app.use(Express.static(__dirname + "/client/"));
 app.get("/", (req, res) => {
