@@ -10,4 +10,4 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/client/index.html");
 });
 
-app.listen(PORT, IP, () => { console.log(`Server listen to ${IP}:${PORT}`); })
+app.listen(PORT, IP, () => { console.log(`Listening to ${IP}:${PORT}`); })
