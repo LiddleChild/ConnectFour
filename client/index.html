@@ -6,6 +6,13 @@
     </head>
 
     <body>
+        <div class="menu">
+            <center>
+                <button id="singleplayer">Play</button>
+                <button id="multiplayer">Play online</button>
+                <p id="text"></p>
+            </center>
+        </div>
         <center>
             <div class="board">
                 <canvas id="canvas" width=350 height=350></canvas>
@@ -18,5 +25,8 @@
     </body>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="module" src="index.js"></script>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <script src="Library.js"></script>
+    <script src="index.js"></script>
+    <script src="Socket.js"></script>
 </html>

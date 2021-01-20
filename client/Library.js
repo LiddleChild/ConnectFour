@@ -1,4 +1,4 @@
-export class Point {
+class Point {
 
     constructor(x, y) {
         this.x = x;
@@ -7,7 +7,7 @@ export class Point {
 
 }
 
-export class Rectangle {
+class Rectangle {
     
     constructor(x, y, w, h) {
         this.x = x;
