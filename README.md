@@ -1,2 +1,5 @@
 # ConnectFour
-Node.js libraries requirement: express, ip, socket.io
+Node.js libraries requirement:
+	express
+	ip
+	socket.io
