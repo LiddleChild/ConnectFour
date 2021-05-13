@@ -1,6 +1,6 @@
 # ConnectFour
 ### Simple connect four game.
-## Node.js libraries requirement
+## Nodejs Library Requisites
 - express
 - ip
 - socket.io
